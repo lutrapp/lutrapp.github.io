@@ -199,6 +199,10 @@ header a:hover {
     #scrollServicos {
         display: none;
     }
+    #carousel1 img
+   {
+        width: 35rem ;
+   }
 }
 
 @media (min-width: 600px){
@@ -250,7 +254,7 @@ header a:hover {
     }
 
     #carousel1 img {
-        width: 20rem ;
+        width: 32rem ;
     }
 
     ul.listaServicos {
