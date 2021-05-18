@@ -154,10 +154,10 @@ header a:hover {
   
 /* portfolio menu e carousel */
 
-/* imagem principal, que clicada dirciona para o carousel */
-.portfolio img {
+/* imagem principal, que clicada dirciona para o carousel, foi ajustado em @media */
+/* .portfolio img {
     width: 60%;
-}
+} */
 
 .portfolio a {
     text-decoration: none;
@@ -227,8 +227,8 @@ header a:hover {
    }
 
    #portfolio img {
-        width: 35rem;
-        margin-top: 7rem;
+        width: 29rem;
+        margin-top: 2rem;
         margin-bottom: 10rem;
     }
 
@@ -271,8 +271,8 @@ header a:hover {
     }
 
     #portfolio img {
-        width: 46rem;
-        margin-top: 5rem;
+        width: 27rem;
+        margin-top: 3rem;
         margin-bottom: 6rem;
         }
     
@@ -299,7 +299,7 @@ header a:hover {
    }
 
    #portfolio img {
-        width: 51rem;
+        width: 29rem;
         margin-top: 3rem;
         margin-bottom: 4rem;
     }
@@ -310,7 +310,7 @@ header a:hover {
     }
     
     .menu1 {
-        padding: .6rem;
+        padding: .9rem;
    }
 }
 
