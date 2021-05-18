@@ -194,183 +194,6 @@ header a:hover {
     margin-top: 1rem;
 }
 
-/* responsividade */ 
-@media (max-width: 780px){
-    #scrollServicos {
-        display: none;
-    }
-    #carousel1 img
-   {
-        width: 35rem ;
-   }
-}
-
-@media (min-width: 600px){
-    
-    .imgLogoInicio img {
-        width: 56%;
-        cursor: pointer;
-    }
-    
-    #carousel1 img {
-        width: 30rem ;
-   }
-
-}
-
-@media (min-width: 768px){
-    
-    .imgLogoInicio img {
-        width: 76%;
-        cursor: pointer;
-    }
-
-    #carousel1 img
-   {
-        width: 35rem ;
-   }
-
-   #portfolio img {
-        width: 29rem;
-        margin-top: 2rem;
-        margin-bottom: 10rem;
-    }
-
-    .footer1 {
-        position: fixed;
-        bottom: 0;
-    }
-
-    .menu1 {
-        padding: .6rem;
-   }
-}
-
-@media (min-width: 800px){
-    
-    .imgLogoInicio img {
-        width: 76%;
-        cursor: pointer;
-    }
-
-    #carousel1 img {
-        width: 32rem ;
-    }
-
-    ul.listaServicos {
-        font-size: 1.1rem;
-        position: fixed;
-    }
-}
-
-@media (min-width: 900px){
-    
-    .imgLogoInicio img {
-        width: 56%;
-        cursor: pointer;
-    }
-
-    #carousel1 img {
-        width: 25rem ;
-    }
-
-    #portfolio img {
-        width: 27rem;
-        margin-top: 3rem;
-        margin-bottom: 6rem;
-        }
-    
-    .footer1 {
-        position: fixed;
-        bottom: 0;
-    }
-    
-    .menu1 {
-        padding: .6rem;
-    }
-}
-
-@media (min-width: 1100px){
-    
-    .imgLogoInicio img {
-        width: 56%;
-        cursor: pointer;
-    }
-    
-    #carousel1 img {
-
-       width: 35rem ;
-   }
-
-   #portfolio img {
-        width: 29rem;
-        margin-top: 3rem;
-        margin-bottom: 4rem;
-    }
-
-    .footer1 {
-        position: fixed;
-        bottom: 0;
-    }
-    
-    .menu1 {
-        padding: .9rem;
-   }
-}
-
-@media (min-width: 1440px){
-    
-    .imgLogoInicio img {
-        width: 66%;
-        cursor: pointer;
-    }
-    
-    #carousel1 img {
-       width: 28rem ;
-   }
-
-   #portfolio img {
-        width: 70rem;
-        margin-top: 3rem;
-        margin-bottom: 5rem;
-    }
-
-    .footer1 {
-        position: fixed;
-        bottom: 0;
-    }
-    .menu1 {
-        padding: 1rem;
-   }
-
-}
-
-@media (min-width: 1800px){
-
-    .imgLogoInicio img {
-        width: 56%;
-        cursor: pointer;
-    }
-    
-    #carousel1 img {
-       width: 25rem;
-   }
-
-   #portfolio img {
-       width: 80rem;
-       margin-top: 2rem;
-       margin-bottom: 1rem;
-   }
-
-   .footer1 {
-       position: fixed;
-       bottom: 0;
-   }
-
-  .menu1 {
-       padding: 1.2rem;
-  }
-}
 
 /* ---------- quem somos ----------*/
 
@@ -590,3 +413,314 @@ aside p {
      position: fixed;
      bottom: 0;
  }
+
+ /* responsividade */ 
+@media (max-width: 780px){
+    #scrollServicos {
+        display: none;
+    }
+  
+   #portfolio img {
+    width: 21rem;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    }
+
+    .footer1 {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 400px){
+    
+    .imgLogoInicio img {
+        width: 56%;
+        cursor: pointer;
+    }
+
+    #portfolio img {
+        width: 18rem;
+        margin-top: 7rem;
+        margin-bottom: 25rem;
+    }
+
+}
+
+@media (min-width: 500px){
+    
+    .imgLogoInicio img {
+        width: 56%;
+        cursor: pointer;
+    }
+
+    #portfolio img {
+        width: 24rem;
+        margin-top: 4rem;
+        margin-bottom: 9rem;
+    }
+
+}
+
+@media (min-width: 500px) and (orientation: landscape){
+    
+    .imgLogoInicio img {
+        width: 56%;
+        cursor: pointer;
+    }
+
+    #portfolio img {
+        width: 22rem;
+        margin-top: 1rem;
+        margin-bottom: 25rem;
+    }
+
+}
+
+@media (min-width: 600px){
+    
+    .imgLogoInicio img {
+        width: 56%;
+        cursor: pointer;
+    }
+
+    #portfolio img {
+        width: 26rem;
+        margin-top: 3rem;
+        margin-bottom: 9rem;
+    }
+
+}
+
+@media (min-width: 600px) and (orientation: landscape){
+    
+    .imgLogoInicio img {
+        width: 56%;
+        cursor: pointer;
+    }
+
+    #portfolio img {
+        width: 29rem;
+        margin-top: 2rem;
+        margin-bottom: 10rem;
+    }
+
+}
+
+@media (min-width: 768px){
+    
+    .imgLogoInicio img {
+        width: 76%;
+        cursor: pointer;
+    }
+
+   #portfolio img {
+        width: 34rem;
+        margin-top: 7rem;
+        margin-bottom: 11rem;
+    }
+
+    .footer1 {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .menu1 {
+        padding: .6rem;
+   }
+}
+@media (min-width: 768px) and (orientation: landscape){
+    
+    .imgLogoInicio img {
+        width: 76%;
+        cursor: pointer;
+    }
+
+   #portfolio img {
+        width: 32rem;
+        margin-top: 0rem;
+        margin-bottom: 11rem;
+    }
+
+    .footer1 {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .menu1 {
+        padding: .6rem;
+   }
+}
+
+@media (min-width: 800px){
+    
+    .imgLogoInicio img {
+        width: 76%;
+        cursor: pointer;
+    }
+    
+    #portfolio img {
+        width: 35rem;
+        margin-top: 7rem;
+        margin-bottom: 10rem;
+        }
+
+    ul.listaServicos {
+        font-size: 1.1rem;
+        position: fixed;
+    }
+}
+@media (min-width: 800px) and (orientation: landscape){
+    
+    .imgLogoInicio img {
+        width: 76%;
+        cursor: pointer;
+    }
+    
+    #portfolio img {
+        width: 32rem;
+        margin-top: 0rem;
+        margin-bottom: 10rem;
+        }
+
+    ul.listaServicos {
+        font-size: 1.1rem;
+        position: fixed;
+    }
+}
+
+@media (min-width: 900px){
+    
+    .imgLogoInicio img {
+        width: 56%;
+        cursor: pointer;
+    }
+
+    #portfolio img {
+        width: 35rem;
+        margin-top: 8rem;
+        margin-bottom: 10rem;
+        }
+    
+    .footer1 {
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .menu1 {
+        padding: .6rem;
+    }
+}
+@media (min-width: 900px) and (orientation: landscape){
+    
+    .imgLogoInicio img {
+        width: 56%;
+        cursor: pointer;
+    }
+    #portfolio img {
+        width: 32rem;
+        margin-top: 0rem;
+        margin-bottom: 10rem;
+        }
+    
+    .footer1 {
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .menu1 {
+        padding: .6rem;
+    }
+}
+
+@media (min-width: 1100px){
+    
+    .imgLogoInicio img {
+        width: 56%;
+        cursor: pointer;
+    }
+    
+   #portfolio img {
+        width: 33rem;
+        margin-top: 0rem;
+        margin-bottom: 8rem;
+    }
+
+    .footer1 {
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .menu1 {
+        padding: .9rem;
+   }
+}
+@media (min-width: 1100px) and (orientation: landscape){
+    
+    .imgLogoInicio img {
+        width: 56%;
+        cursor: pointer;
+    }
+    
+   #portfolio img {
+        width: 33rem;
+        margin-top: 0rem;
+        margin-bottom: 8rem;
+    }
+
+    .footer1 {
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .menu1 {
+        padding: .9rem;
+   }
+}
+
+@media (min-width: 1440px){
+    
+    .imgLogoInicio img {
+        width: 66%;
+        cursor: pointer;
+    }
+    
+    #portfolio img {
+        width: 56rem;
+        margin-top: 1rem;
+        margin-bottom: 8rem;
+    }
+
+    .footer1 {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .menu1 {
+        padding: 1.4rem;
+   }
+
+}
+
+@media (min-width: 1800px){
+
+    .imgLogoInicio img {
+        width: 56%;
+        cursor: pointer;
+    }
+
+   #portfolio img {
+       width: 56rem;
+       margin-top: 1rem;
+       margin-bottom: 8rem;
+   }
+
+   .footer1 {
+       position: fixed;
+       bottom: 0;
+   }
+
+  .menu1 {
+       padding: 1.9rem;
+  }
+}
