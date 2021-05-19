@@ -279,10 +279,6 @@ div.colunaItens div {
     padding: 1%;
 }
 
-#servicos img {
-    width: 50%;
-}
-
 #servicosImg {
     background-image: url(../img/texturasElementos.png);
     background-size: 28rem;
