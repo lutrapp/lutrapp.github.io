@@ -7,6 +7,8 @@
         <link rel="shortcut icon" href="avatarlu.ico" type="image/x-icon" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
 
         <title>Mega Sena></title>
@@ -14,23 +16,31 @@
     </head>
 
     <body>
-        <header>
-            <h1>
-                Gere seus números da sorte para mega Sena
-            </h1>
-        </header>
-        <main>
-            <section>
-                <div>
-                    <button onclick="sorteiaJa()">sorteia</button>
-                </div>
-                <div>
-                    <p id="sorteio"></p>
-                </div>
-            </section>
-            <div id="fixed"><p>desenvolvido por Luciane Trapp &reg;</p></div>
-        </main>
+        <div class="container">
+            <div class="row">
+                <header class="col-lg-7 col-md-8 sm-12 mx-auto text-center">
+                    <h1>
+                        Gere seus números da sorte para mega Sena
+                    </h1>
+                </header>
+            </div>
+            <div class="mx-auto justify-content-center">
+                <main>
+                    <div class="col-12 mx-auto text-center my-5">
+                        <button class="btn btn-outline-dark btn-lg mx-auto" onclick="sorteiaJa()">sorteia</button>
+                    </div>
+                    <div class="col-lg-7 col-md-8 sm-12 mx-auto p-3 bg-warning text-dark rounded">
+                        <p class="text-center" id="sorteio"></p>
+                    </div>
 
+                </main>
+            </div>
+            <div class="row align-items-center">
+                <div class="fixed-bottom text-center py-3" id="fixed">
+                    <p class="py-1 bg-light">desenvolvido por Luciane Trapp &reg;</p>
+                </div>
+            </div>
+        </div>
         <script src="script.js">
 
         </script>
