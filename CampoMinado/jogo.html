@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Luciane Trapp">
+        <link rel="shortcut icon" href="balaoAzul.ico" type="image/x-icon" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Hercule's Party</title>
+
+    </head>
+
+    <body id="bodyGame">
+        <header>
+
+            <article>
+                <div class="itensPlacar">
+                    <span id="pts">pontos:</span>
+                      <!-- valor em pontos virá do js -->
+                    <div id="pontos"></div>
+                </div>
+                <div class="itensPlacar">
+                    <h1 id="placar">
+                        Placar
+                    </h1>
+                </div>
+                <div class="itensPlacar">
+                    <span id="bmb">bombas:</span>
+                    <!-- valor em bombas virá do js -->
+                    <div id="bombas"></div>
+                </div>
+            </article>
+            <button id="joga" onclick="jogar()">Jogar novamente</button>
+            <div id="regras" onmouseover="escondeH1()" onmouseout="mostraH1()" class="tooltip">Veja as regras aqui!
+                <span class="tooltiptext">O campo está delimitado pela linha verde! <br />Clique várias vezes dentro do campo.<br /> 30 pontos você ganha!<br /> 30 bombas você perde!
+                </span>
+            </div>
+        </header>
+        <main>
+            <section id="jogo">
+                <!-- aqui entram as divs nesse formato, serão 75, incluídas com javascript -->
+                <!-- <div>
+                    <input type="text" value="0">
+                </div> -->
+
+            </section>
+            <a href="index.html">
+            <div  id="party">Hercules faz 9 &hearts;</div>
+        </a>
+            <div id="fixed">desenvolvido por Luciane Trapp &reg;</div>
+        </main>
+
+        <script src="jogo.js">
+
+        </script>
+    </body>
+
+</html>
