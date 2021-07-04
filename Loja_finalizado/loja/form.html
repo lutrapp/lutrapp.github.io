@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<header>
+    <nav>
+        <ul class="menu" id="topo">
+            <li><a href="loja.html">Home</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <main>
+        <h1>Oportunidade única</h1>
+        <p id="descricao">Preencha o formulário para finalizar a melhor compra de sua vida!</p>
+        
+        <form action="" method="POST">
+            
+            <label for="prod">Escolha seu Dream:</label>
+            <select name="prod" id="prod">
+            <option value="1">Foco - 10 ❤️</option>
+            <option value="2">Resiliência - 13 ❤️</option>
+            <option value="2">Paciência - 24 ❤️</option>
+            <option value="2">Empatia - 19 ❤️</option>
+            <option value="2">Amor - 30 ❤️</option>
+            <option value="2">Reciprocidade - 16 ❤️</option>
+            <option value="2">Respeito - 44 ❤️</option>
+            <option value="2">Gentileza - 63 ❤️</option>
+            <option value="2">Otimismo - 17 ❤️</option>
+            <option value="2">Esperança - 18 ❤️</option>
+            <option value="2">Fé - 34 ❤️</option>
+            <option value="2">Caridade - 08 ❤️</option>
+
+        </select>
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required placeholder="Nome completo" >
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required placeholder="E-mail">
+
+            <label for="tel">Telefone:</label>
+            <input type="tel" id="tel" required placeholder="Digite somente números com DDD" maxlength="11" minlength="10">
+
+            <label for="end">Rua e Nº:</label>
+            <input type="text" id="end" required placeholder="Nome da rua">
+
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" required placeholder="Bairro">
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" required placeholder="Somente números" maxlength="8" minlength="8" >
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" required placeholder="Cidade">
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" required maxlength="2" minlength="2" size="2" >
+
+            <input type="submit" name="botao" id="botao" value="Adquira seu produto">
+        </form>
+    </main>
+</body>
+<footer>
+    Desenvolvido por Daniela, Luciane e Talita ❤️
+</footer>
+</html>

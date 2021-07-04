@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Menu*/
+.menu{
+    list-style: none;
+    float:center;
+    border: 20px 20px 20px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.menu li{
+    position: relative;
+    list-style: none;
+    float:left;
+    background: #0B2619;
+    width: 100%;
+}
+.menu li a{
+    color:#ffffff;
+    text-decoration:none;
+    padding: 20px 50px 20px 50px;
+    display: block;
+}
+.menu li a:hover{
+    background:#95A656;
+    color: #080808;
+}
+
+h1{
+    clear: both; 
+    text-align: center;
+    font-size: 60px;
+    padding: 70px ;  
+}
+
+/* Body */
+body{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#E9EFF2, #98A0A6, #95A656, #124022);
+}
+
+footer{
+    clear: both;
+    padding: 20px;
+    text-align: center;
+}
+form{
+    white-space: pre;
+    margin: 0% 27% 0% 27%;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+    padding: 10px;
+    width: 500px;
+    font-size: 20px;
+}
+select{
+    width: 525px ;
+}
+select#prod{
+    font-size: 25px;
+}
+#botao{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color:rgb(62, 197, 49);
+    color: white;
+    margin-left: 22%;
+    border: none;
+}
+#botao:hover{
+    /* background-color: black;
+    color: white; */
+    padding: 15px;
+    background-color: rgb(241, 241, 144);
+    color: black;
+}
+#botao a{
+    text-decoration: none;
+    color: white;
+    vertical-align: bottom;
+}
+#descricao{
+    text-align: center;
+}
+footer{
+    clear: both;
+    padding: 20px;
+    text-align: center;
+}
